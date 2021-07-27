@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "formulahendry.dotnet-test-explorer",
+        "ms-dotnettools.csharp",
+        "jchannon.csharpextensions",
+        "k--kato.docomment",
+        "streetsidesoftware.code-spell-checker",
+        "patcx.vscode-nuget-gallery",
+        "hbenl.vscode-test-explorer",
+        "fernandoescolar.vscode-solution-explorer",
+        "gruntfuggly.todo-tree",
+        "adrianwilczynski.user-secrets"
+    ]
+}
