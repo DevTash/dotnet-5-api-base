@@ -1,6 +1,6 @@
 using System;
 
-namespace Dotnet.Api
+namespace Dotnet.Api.Features.Weather
 {
     public class WeatherForecast
     {

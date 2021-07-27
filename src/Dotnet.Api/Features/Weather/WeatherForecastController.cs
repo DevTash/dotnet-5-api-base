@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Dotnet.Api.Controllers
+namespace Dotnet.Api.Features.Weather
 {
     [ApiController]
     [Route("[controller]")]
@@ -20,7 +19,7 @@ namespace Dotnet.Api.Controllers
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
-            _logger = logger;
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));;
         }
 
         [HttpGet]
